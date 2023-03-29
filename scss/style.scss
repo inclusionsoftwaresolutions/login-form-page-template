@@ -1,0 +1,22 @@
+$color_1: #fff;
+$background-color_1: #000000;
+$background-color_2: #c0ddfd;
+
+.btn-color {
+  background-color: $background-color_1;
+  color: $color_1;
+  &:hover {
+  color: $color_1;
+  }
+}
+.profile-image-pic {
+  height: 135px;
+  width: 135px;
+  object-fit: cover;
+}
+.cardbody-color {
+  background-color: $background-color_2;
+}
+a {
+  text-decoration: none;
+}
